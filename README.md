@@ -73,7 +73,8 @@ Run the following commands:
 6. Say yes to setting Python3 as the default
 7. When prompted to reboot, select yes
 8. Once the pi is rebooted, ssh back into it
-9. Download the script
+9. sudo pip3 install adafruit-circuitpython-rgb-display
+10. Download the script
    ```
    wget https://raw.githubusercontent.com/goofygrin/PiMinerMonitor/main/miner.py
    ```
